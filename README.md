@@ -41,7 +41,5 @@ Watch the video demonstration of the application, titled "Metroliner III Pedesta
 - **Protocols**: UDP, UART
 - **UI**: Tkinter + Pillow for image rendering
 
---
-
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
