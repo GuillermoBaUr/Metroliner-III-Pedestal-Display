@@ -5,6 +5,24 @@ It is optimized for **Raspberry Pi 3** and communicates with the X-Plane flight 
 
 **Note:** This repository only includes the **User Interface (UI)** portion of the project. Other components are not publicly available due to restrictions.
 
+## UI Module Overview
+
+The core of this repository is the **`jg_ui_mngr.py`** module, which manages the **touchscreen interface** for the Metroliner III pedestal. It builds the graphical layout using **Tkinter** and custom widgets, and emits events through a callback mechanism for integration with the rest of the system.
+
+### Key Responsibilities
+- Creates a **full-screen UI** optimized for Raspberry Pi.
+- Implements interactive controls:
+  - **Trim Selector** (Pilot/Copilot)
+  - **Engine Stop & Feather** switches
+  - **Flaps Lever** with snap positions (UP, 1/4, 1/2, DN)
+  - **Landing Gear** toggle
+  - **Parking Brake** button
+  - **Fuel and Hydraulic switches**
+  - **Aux Trim** momentary control
+- Uses **image-based widgets** for realistic animations.
+- Reports user actions via `jg_ui_mngr_events_cb(event_id, payload)`.
+
+
 ## Features
 - **Multithreaded architecture**: Separate threads for event handling and GUI rendering.
 - **Event-driven framework**: Scalable and modular design for responsive interaction.
