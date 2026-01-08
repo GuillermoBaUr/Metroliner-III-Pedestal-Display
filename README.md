@@ -1,3 +1,4 @@
+# Metroliner III Pedestal Simulation – Touch Display Framework
 
 This repository contains the **UI component** of a project that simulates the **Metroliner III pedestal** on a **touchscreen display**, built with a **multithreaded event-driven architecture** in **Python**.  
 It is optimized for **Raspberry Pi 3** and communicates with the X-Plane flight simulator via **UDP** for real-time synchronization.
