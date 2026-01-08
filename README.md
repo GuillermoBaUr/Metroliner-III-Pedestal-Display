@@ -12,6 +12,10 @@ It is optimized for **Raspberry Pi 3** and communicates with the X-Plane flight 
 - **UDP communication**: Real-time data exchange with the simulator.
 - **Optimized for Raspberry Pi**: Lightweight and efficient for resource-constrained environments.
 
+## Video Demonstration
+
+Watch the video demonstration of the application, titled "Metroliner III Pedestal Simulation – UI Overview & Functionality" [here](https://youtu.be/6uQhjiYeBb4).
+
 ## Technology Used
 - **Language**: Python
 - **Hardware**: Raspberry Pi 3
