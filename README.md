@@ -32,6 +32,7 @@ The core of this repository is the **`jg_ui_mngr.py`** module, which manages the
 
 ## Video Demonstration
 
+![Pedestal UI](Img_project/Pedestal.png)
 Watch the video demonstration of the application, titled "Metroliner III Pedestal Simulation – UI Overview & Functionality" [here](https://youtu.be/6uQhjiYeBb4).
 
 ## Technology Used
