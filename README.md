@@ -5,6 +5,13 @@ It is optimized for **Raspberry Pi 3** and communicates with the X-Plane flight 
 
 **Note:** This repository only includes the **User Interface (UI)** portion of the project. Other components are not publicly available due to restrictions.
 
+## 📸 Media
+
+![Pedestal UI](Img_project/Pedestal.png)
+![Pedestal Image](Img_project/Pedestal-2.png)
+Watch the video demonstration of the application, titled "Metroliner III Pedestal Simulation – UI Overview & Functionality" [here](https://youtu.be/6uQhjiYeBb4).
+
+
 ## UI Module Overview
 
 The core of this repository is the **`jg_ui_mngr.py`** module, which manages the **touchscreen interface** for the Metroliner III pedestal. It builds the graphical layout using **Tkinter** and custom widgets, and emits events through a callback mechanism for integration with the rest of the system.
@@ -29,11 +36,6 @@ The core of this repository is the **`jg_ui_mngr.py`** module, which manages the
 - **Touchscreen support**: Interactive UI with image-based animations.
 - **UDP communication**: Real-time data exchange with the simulator.
 - **Optimized for Raspberry Pi**: Lightweight and efficient for resource-constrained environments.
-
-## Video Demonstration
-
-![Pedestal UI](Img_project/Pedestal.png)
-Watch the video demonstration of the application, titled "Metroliner III Pedestal Simulation – UI Overview & Functionality" [here](https://youtu.be/6uQhjiYeBb4).
 
 ## Technology Used
 - **Language**: Python
